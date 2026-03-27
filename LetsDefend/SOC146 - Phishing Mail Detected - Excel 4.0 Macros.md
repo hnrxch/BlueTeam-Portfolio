@@ -1,11 +1,11 @@
-#Phishing Alert Analysis – Excel 4.0 Macros
+# Phishing Alert Analysis – Excel 4.0 Macros
 
-##Scenario
+## Scenario
 
 High severity alert triggered:
 SOC146 - Phishing Mail Detected - Excel 4.0 Macros
 
-##Investigation
+## Investigation
 Email contained a malicious Excel attachment (Excel 4.0 macros).
 Sandbox analysis confirmed malicious behavior.
 C2 addresses were identified and observed in network logs.
@@ -14,17 +14,17 @@ File execution
 Network connections to C2
 Command execution (regsvr32)
 
-##Conclusion
+## Conclusion
 
 TRUE POSITIVE
 
 The phishing email was successfully delivered and executed, resulting in system compromise.
 
-##Actions
+## Actions
 Identified affected host
 Confirmed malicious activity
 Recommended isolation and IOC blocking
 
-##Skills practiced
+## Skills practiced
 
 Phishing analysis, IOC identification, log correlation, endpoint investigation
